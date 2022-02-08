@@ -35,7 +35,7 @@ type MachineConfiguration struct {
 
 	// Flag for enabling/disabling Hyperthreading
 	// Required: true
-	HtEnabled *bool `json:"ht_enabled"`
+	HtEnabled *bool `json:"smt"`
 
 	// Memory size of VM
 	// Required: true
